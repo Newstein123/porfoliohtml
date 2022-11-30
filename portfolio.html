@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Custom Css  -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!-- font awesome  -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+    .navbar-item .active {
+            background: linear-gradient(#fff, #fff);
+            background-size: 100% 3px;
+            background-repeat: no-repeat;
+            background-position: bottom left;
+        }
+        @media (max-width: 992px) {
+            .navbar-item .active {
+            background: linear-gradient(grey, grey);
+            background-size: 100% 3px;
+            background-repeat: no-repeat;
+            background-position: bottom left;
+            }
+        }
+    </style>
+</head>
+<body>
+
+   
+    <!-- Navbar  -->
+
+    <div class="container">
+        <div class="navbar">
+            <div class="navbar-logo">
+                <ul>
+                    <li><a href="mailto:minthetpaing376@gmail.com"> <i class="fa-solid fa-phone"></i> minthetpaing376@gmail.com</a></li>
+                    <li><a href="tel:+959 770 139 207"> <i class="fa-solid fa-envelope"></i> +959 770 139 207</a></li>
+                </ul>
+            </div> 
+            <div class="navbar-logo">
+                <img src="" alt="">
+            </div>   
+            <div class="toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div> 
+            <div class="navbar-item">
+                <ul>
+                    <li> <a href="index.html"> Home  </a> </li>
+                    <li> <a href="about.html" > About </a> </li>              
+                    <li> <a href="service.html"> Service </a> </li>
+                    <li> <a href="project.html"  class="active"> Projects</a>  </li>
+                    <li> <a href="contact.html"> Contact</a>   </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Project Details  -->
+
+        <div class="projdetail-container">
+            <h1> Company Porfolio Website </h1>
+            <hr>
+            <div class="projdetail">
+                <div class="projdetail-img">
+                    <img src="images/Screenshot (2).png" alt="">
+                </div>
+                <div class="projdetail-text">           
+                <p> It is a simple porfolio website. It is made by bootstrap and some custom css. 
+                  </p>
+                </div>
+            </div>
+            <div class="projdetail">            
+                <div class="projdetail-text">
+                <p> This is about us page.  </p>
+                </div>
+                <div class="projdetail-img">
+                    <img src="images/Screenshot (27).png" alt="">
+                </div>
+            </div>
+            <div class="projdetail">
+                <div class="projdetail-img">
+                    <img src="images/Screenshot (28).png" alt="">
+                </div>
+                <div class="projdetail-text">           
+                <p> This is projects page. </p>
+                </div>
+            </div>
+            <div class="projdetail">            
+                <div class="projdetail-text">
+                <p> This is a footer. There is no working function. It's only for showcase. </p>
+                </div>
+                <div class="projdetail-img">
+                    <img src="images/Screenshot (29).png" alt="">
+                </div>
+            </div>
+        </div>
+      <!-- project  -->
+
+  <div class="project-container">
+    <h1> Other Projects </h1>
+    <div class="project">
+        <div class="project-card">
+            <div class="project-img">
+                <img src="images/Screenshot (1).png" alt="">
+            </div>
+            <div class="project-text">
+                <h3> E-Book Store </h3>
+                <p> This project is entirely made by laravel. It contains admin panel. You can control all the things you need. Besides that its  home-slide is dynamic, so, you can change any promotion as you like. The design is simple and user friendly.  </p>
+                <div class="button">
+                    <a href="laravelecom.html" style="margin-left: 50px;">
+                        Project Details 
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-img">
+                <img src="images/Screenshot (4).png" alt="">
+            </div>
+            <div class="project-text">
+                <h3> E-commmence Website </h3>
+                <p> This project is made by pure php. You can sell your items and control users. Cart and order system also involved. But payment method is not included.  </p>
+                <div class="button">
+                    <a href="ecom.html" style="margin-left: 50px;">
+                        Project Details 
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-img">
+                <img src="images/Screenshot (3).png" alt="">
+            </div>
+            <div class="project-text">
+                <h3> Voice Media Website </h3>
+                <p> This project is made by pure php and it has amazing home-slider. Because it is a simple project, you can only login and logout. </p>
+                <div class="button">
+                    <a href="media.html" style="margin-left: 50px;">
+                        Project Details 
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+        <!-- footer  -->
+        <div class="footer-container">
+            <div class="footer">
+                   <div class="footer-contact">
+                    <h3> Contact Me </h3>
+                    <ul style="list-style: none;">
+                        <li> <i class="fa-solid fa-phone"></i><a href="tel:+959 770 139 207"> +959 770 139 207 </a> </li>
+                        <li> <i class="fa-solid fa-envelope"></i> <a href="mailto:minthetpaing376@gmail.com"> minthetpaing376@gmail.com</a> </li>
+                    </ul>
+                   <div class="button">
+                    <a href="contact.html"> Contact Now </a>
+                   </div>
+                   </div>
+               
+                <div class="footer-service">
+                    <h3> My Service </h3>
+                    <ul>
+                        <li> Web Design </li>
+                        <li> Web Development </li>
+                        <li> Web Support & Maintainence </li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <ul>
+                        <li> <a href="https://www.facebook.com/minthet.paing.9634"><i class="fa-brands fa-facebook-f"></i> </a></li>
+                        <li> <a href="https://www.instagram.com/newstein26/"> <i class="fa-brands fa-instagram"></i> </a></li>
+                        <li> <a href="https://www.linkedin.com/in/min-thet-paing-793738241/"> <i class="fa-brands fa-linkedin-in"></i> </a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p> &copy;2022minthetpaing </p>
+            </div>
+            <div class="arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M256 0C114.6 0 0 114.6 0 256c0 141.4 114.6 256 256 256s256-114.6 256-256C512 114.6 397.4 0 256 0zM382.6 254.6c-12.5 12.5-32.75 12.5-45.25 0L288 205.3V384c0 17.69-14.33 32-32 32s-32-14.31-32-32V205.3L174.6 254.6c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25l103.1-103.1C241.3 97.4 251.1 96 256 96c4.881 0 14.65 1.391 22.65 9.398l103.1 103.1C395.1 221.9 395.1 242.1 382.6 254.6z"/></svg>
+            </div>
+          </div>
+         
+        </div>
+            <script src="script.js"></script>
+        </body>
+        </html>
